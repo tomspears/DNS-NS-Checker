@@ -1,10 +1,9 @@
-// script.js
 document.addEventListener('DOMContentLoaded', function () {
     const domainForm = document.getElementById('domainForm');
     const resultDiv = document.getElementById('result');
     const downloadLink = document.getElementById('downloadLink');
 
-    const csvData = [['Domain', 'NS Records']]; // CSV header
+    const csvData = [['Domain', 'NS Records']]; // CSV header - do we want to handle more than NS records from the json response? see https://networkcalc.com/api/docs/dns
 
     domainForm.addEventListener('submit', function (event) {
         event.preventDefault(); // Prevent form submission
