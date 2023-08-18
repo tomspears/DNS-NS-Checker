@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tom's DNS NSChecker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My DNS NSChecker</h1>
+    </header>
+    <main>
+        <h2>Domain Nameserver Lookup</h2>
+        <form id="domainForm">
+            <label for="domainInput">Enter Domain Names (One per Line):</label>
+            <textarea id="domainInput" name="domainInput" rows="5" required></textarea>
+            <button type="submit">Lookup</button>
+        </form>
+        <div id="result"></div>
+        <div><a id="downloadLink" href="#">Download CSV of remaining Domain Zones</a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Tom's DNS NSChecker. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
