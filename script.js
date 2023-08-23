@@ -22,7 +22,9 @@ document.addEventListener('DOMContentLoaded', function () {
         'pdns6.ultradns',
         'pdns11.ultradns',
         'udns1.cscdns',
-        'udns2.cscdns'
+        'udns2.cscdns',
+        'udns1.ultradns',
+        'udns2.ultradns'
         // ... (add other allowed nameserver strings???)
     ];
 
